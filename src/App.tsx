@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import AppLayout from './Applayout';
+
+interface IMyContext{
+  userId:string
+}
+
+export const MyContext = React.createContext<IMyContext>({userId:""});
+
+
 
 function App() {
+
+  const [userData,setUserData] = useState<IMyContext>({userId:'bf0bb5b2-cbfa-43a5-b0fb-d219b0841f50'});
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <MyContext.Provider value={userData}>
+    <div className="checklist-app">
+      <AppLayout/>
     </div>
+    </MyContext.Provider>
   );
 }
 

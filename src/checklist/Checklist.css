@@ -1,0 +1,162 @@
+.task-cnt-act-flex-box {
+  display: flex;
+  height: 4rem;
+  padding: 5px;
+}
+
+.task-action-container {
+  display: flex;
+  padding: 5px;
+  height: 3rem;
+  margin: 2px 0px 2px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #a4a0a0;
+}
+.delete-button {
+  flex: 0.25;
+}
+
+.created-button {
+  flex: 0.75  
+}
+
+.task-container{
+    width: 50vw;
+    margin: auto;
+    min-width: 500px;
+    padding-top: 30px;
+}
+
+
+.task-flex-box {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    background-color: #a4a0a0;
+    height: 3rem;
+    padding: 5px;
+    margin: 2px;
+}
+
+.task-created-block{
+    flex: 0.25;
+    font-size: 0.75rem;
+}
+
+.task-desc-block{
+    flex: 0.75;
+    margin: auto;
+    font-weight: bold;
+}
+
+.create-dialog-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 650px;
+    height: 300px;
+    z-index: 1000;
+}
+
+.create-form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.create-form {
+  font-size: large;
+  font-weight: bold;
+}
+
+.create-button {
+  background-color: rgba(0, 128, 0, 0.300);
+  height: 30px;
+  width: 80%;
+  font-size:medium;
+  font-weight: bolder;
+}
+
+.create-button:hover {
+  background-color: rgba(0, 128, 0, 0.500);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000000f;
+    z-index: 999;
+  }
+
+  .dialog-content-flex-box{
+    display: flex;
+    flex-direction: column;
+    /* width: 270px; */
+    height: 260px;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .delete-dialog-action-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  .dialog-content {
+    flex: 0.75;
+    padding: 10px;
+    margin: auto;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .delete-dialog-action-sec {
+    height: 30px;
+    width: 30%;
+    background-color: rgba(255, 0, 0, 0.300);
+  }
+
+  .delete-dialog-action-sec:hover {
+      background-color: rgba(255, 0, 0, 0.500); ;
+  }
+
+  .delete-dialog-action-primary {
+    height: 30px;
+    width: 30%;
+    background-color: rgba(0, 128, 0, 0.300);
+  }
+
+  .delete-dialog-action-primary:hover {
+    background-color: rgba(0, 128, 0, 0.500);
+}
+
+
+
+  .action-button{
+    float: right;
+    margin: 5px;
+
+  }
+
+
+  .button-container{
+    height: 2rem;
+    background-color: #5150504d;
+  }
+
+  .action-button{
+    height: 1.5rem;
+  }
