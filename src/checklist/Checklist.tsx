@@ -69,7 +69,7 @@ const MyChecklist:React.FC<IMyChecklistProps> = (props:IMyChecklistProps)=>{
 
         return (
             <div className="overlay">
-                <div className="dialog-box">
+                <div className="delete-dialog-box">
                     <ActionButton label="X" action={()=>{setIsDeleteDialogOpen(false)}}/>
                    <div className="dialog-content-flex-box">
                     <div className="dialog-content">
