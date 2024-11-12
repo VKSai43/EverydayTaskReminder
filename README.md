@@ -2,7 +2,7 @@
 
 This web based app is used for making a checklist and list of tasks for each of the checklist.
 
-It can be your checklist for planning a raod trip, a checklist for organising a socail event and many more day-to-day activities.
+It can be your checklist for planning a raod trip, a checklist for organising a social event and many more day-to-day activities.
 
 You can toggle the individual tasks as completed/todo or can toggle the whole checklist as done/to-do.
 
