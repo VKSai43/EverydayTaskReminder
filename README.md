@@ -1,10 +1,10 @@
-# Everday Checklist
+# Everday ToDOList
 
-This web based app is used for making a checklist and list of tasks for each of the checklist.
+This web based app is used for making a ToDOList and list of tasks for each of the ToDOList.
 
-It can be your checklist for planning a raod trip, a checklist for organising a social event and many more day-to-day activities.
+It can be your ToDOList for planning a raod trip, a ToDOList for organising a social event and many more day-to-day activities.
 
-You can toggle the individual tasks as completed/todo or can toggle the whole checklist as done/to-do.
+You can toggle the individual tasks as completed/todo or can toggle the whole ToDOList as done/to-do.
 
 ### Frontend: Based on ReactJs with plain HTML and CSS, not bootstrapped with any UI libraries.
 ### Backend: Java with Spring Boot, MySQL DB
