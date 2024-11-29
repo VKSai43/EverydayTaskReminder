@@ -6,9 +6,7 @@ It can be your ToDOList for planning a raod trip, a ToDOList for organising a so
 
 You can toggle the individual tasks as completed/todo or can toggle the whole ToDOList as done/to-do.
 
-### Frontend: Based on ReactJs with plain HTML and CSS, not bootstrapped with any UI libraries.
-### Backend: Java with Spring Boot, MySQL DB
-
+### Frontend: Based on ReactJs with plain HTML and CSS.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
