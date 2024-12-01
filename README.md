@@ -1,3 +1,4 @@
+Status: WIP -> 
 # Everday ToDOList
 
 This web based app is used for making a ToDOList and list of tasks for each of the ToDOList.
@@ -6,7 +7,7 @@ It can be your ToDOList for planning a raod trip, a ToDOList for organising a so
 
 You can toggle the individual tasks as completed/todo or can toggle the whole ToDOList as done/to-do.
 
-### Frontend: Based on ReactJs with plain HTML and CSS.
+### Frontend: Based on ReactJs
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -37,4 +38,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
